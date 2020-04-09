@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-color: #F2FFFC;
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+/* Imagem cabeçalho da pagina*/
+.Backimg{
+  background: url(../img/bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(110vh - 80px);
+  border-bottom:2px solid black;
+
+}
+/* Corpo da pagina*/
+main {
+  float: none;
+  width: 85%;
+  padding-bottom: 80px;
+  margin-left: 80px;
+}
+
+.container {
+  width: 720px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 25px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+
+/* Organizãção dos icones das redes socias */
+.icones-redes-sociais li {
+  display: inline-block;
+}
+.icones-redes-sociais nav a {
+  text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-indent: -99999px;
+}
+
+/* inserindo icones das redes sociais*/
+.facebook {
+  background-image: url(../img/facebook.png);
+}
+.instagram {
+  background-image: url(../img/instagran.png);
+}
+.youtube {
+  background-image: url(../img/youtube.png);
+}
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+/* Organização dos baloes Flutuantes sobre os carros brasileiros*/
+.sessao1{
+  border-radius: 25px;
+  border: 2px solid #1b9bff;
+  padding: 20px; 
+  width: 330px;
+  height: 407px;
+  float: left;
+}
+.sessao2{
+  border-radius: 25px;
+  border: 2px solid #1b9bff;
+  padding: 20px; 
+  width: 380px;
+  height: 407px;
+  float: right;
+}
+
+.sessao3{
+  border-radius: 25px;
+  border: 2px solid #1b9bff;
+  padding: 20px; 
+  width: 720px;
+  height: 270px;
+  overflow: auto;
+}
+
+/* Rodapé da Pagina*/
+.rodape-pagina {
+  background-color: #000;
+  color: #F2FFFC;
+  clear: both;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
