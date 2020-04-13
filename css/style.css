@@ -121,7 +121,7 @@ em {
   width: 100%;
 }
 
-/* mobile */
+/* Responsividaed do Site para Telas menores */
 @media screen  and (max-width: 828px){
 
     main {      
