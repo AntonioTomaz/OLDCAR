@@ -1,12 +1,9 @@
 /* Organização do blockquote de citação*/
 
 .citacao {
-  background-color: #F2FFFC;
-  border: 4px solid #1b9bff;
-  border-radius: 25px;
   width: 270px;
   box-sizing: border-box;
-  margin: 20px;
+  margin: 15px;
   padding: 10px;
 }
 
